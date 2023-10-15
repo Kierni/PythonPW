@@ -2,7 +2,7 @@ def sweap_max(items) -> list:
     example = [];
     element = items[0]
     max_pos = 0
-    d = 20000000
+    d = 2000
 
     for x in range(len(items)):
         if element <= items[x]:
